@@ -1,0 +1,24 @@
+{
+  "name": "Formelsamling – Matematik A",
+  "short_name": "Formler",
+  "description": "Søgbar formelsamling til Matematik A i gymnasiet: alle formler fra studieplanen med forklaringer, eksempler, Maple-kommandoer og små beregnere.",
+  "lang": "da",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d1317",
+  "theme_color": "#0b7285",
+  "categories": ["education"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Differentialregning", "url": "./#/differential", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Integralregning", "url": "./#/integral", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Favoritter", "url": "./#/favoritter", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Maple-kommandoer", "url": "./#/maple", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Formelsamling – Matematik A</title>
+  <meta name="description" content="Søgbar formelsamling til Matematik A i gymnasiet: alle formler fra studieplanen med forklaringer, eksempler, Maple-kommandoer og små beregnere.">
+  <meta name="theme-color" content="#f4f7f8" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1317" media="(prefers-color-scheme: dark)">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="icon" href="icons/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Formler">
+  <link rel="stylesheet" href="vendor/katex/katex.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="vendor/katex/katex.min.js"></script>
+  <script type="module" src="js/main.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/">
+      <img class="logo" src="icons/icon.svg" alt="" width="30" height="30">
+      <span>Formelsamling</span>
+    </a>
+    <nav id="nav" aria-label="Sider"></nav>
+    <label class="search">
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg>
+      <input id="q" type="search" placeholder="Søg i formlerne" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Søg i formlerne">
+      <kbd aria-hidden="true">/</kbd>
+    </label>
+    <button id="install" class="install" type="button" hidden>Installér</button>
+  </header>
+  <main id="app"></main>
+  <footer class="footer">
+    <span>Formelsamling til Matematik A.</span>
+    <a href="https://frederikaxboeg-create.github.io/interaktiv-matematik/" target="_blank" rel="noopener">Øv dig i Interaktiv Matematik ↗</a>
+  </footer>
+  <noscript><p style="padding:24px">Formelsamlingen kræver JavaScript.</p></noscript>
+</body>
+</html>
